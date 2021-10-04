@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
+
+section {
+  padding:40px;
+  text-align: center;
+}
+header {
+  text-align: center;
+}
+
+body{
+  background-color: rgb(211, 89, 52);
+  text-align: center;
+  
+}
+
+.bienvenue{
+  height:700px;
+  background-image: url("assets/photo royaume.jpg");
+  background-size: cover;
+  background-color: rgb(223, 62, 22);
+  font-size: 55px;
+  color: rgb(211, 55, 55);
+  text-align: center;
+  letter-spacing: -0.03em;
+  margin: 0.20em;
+  transition: all 500ms ease;
+  font-family: "Ephesis";
+  background-size: cover;
+}
+@media only screen and (max-width:800px) {
+  .bienvenue {
+  background-color:rgb(211, 89, 52);
+  background-image: none;
+  font-size: 45px;
+  }
+}
+.bienvenue:hover {
+  letter-spacing: 0;
+}
+.texte h2 {
+  font-size: 50px;
+  font-family: 'Ephesis', sans-serif;
+}
+.texte p {
+  font-size: 25px;
+  font-family: 'Space Grotesk', sans-serif;
+}
+.text-decoration{
+   text-decoration:underline;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  height: 180px;
+}
+td {
+  border: 1px solid rgb(105, 28, 28);
+}
+
+ul{
+  background: rgb(101, 117, 211);
+  display: flex;
+  justify-content: space-around;
+  padding:15px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.2s ease-in-out;
+}
+ul:hover{
+  box-shadow: 15px 5px 5px rgba(0, 0, 0, 0.3);
+} 
+
+ul li{
+  list-style: none;
+  
+}
+
+
+ul li a{
+  color: whitesmoke;
+  text-decoration: none;
+}
+ul li a:hover {
+  color: rgb(194, 137, 33);
+  
+}
+.flex-container{
+  display: flex;
+  justify-content: space-between; 
+}
+.photo{
+  max-width: 350px;
+  min-width: none;
+  font-size: 50px;
+}
+.royal{
+  font-family: 'Ephesis', cursive;
+  font-size: 60px;
+  
+}
+label {
+  display: flex;
+  flex:1 1 1;
+  line-height: 1;
+  justify-content: center;
+  align-items:center;
+}
+input[type="submit"] {
+  padding: 5px 1px;
+  color: white;
+  background-color:rgb(101, 117, 211);
+  border-radius: 20px;
+  width: 20%;
+  height: auto;
+  justify-content: center;
+}
+form {
+  margin: 0 auto;
+  width: 100%;
+  padding-top: 20px;
+  ;
+  
+}
+input {
+   width: 80%;
+   height: 15PX;
+   margin-bottom: 40px;
+   font-style: italic;
+   border-radius: 15px;
+   box-shadow: black;
+   border:none;
+}  
+input:hover{
+  box-shadow: 15px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+textarea{
+  justify-content: center;
+  height: 50px;
+  width: 80%;
+  font-style:italic;
+  border-radius: 15px;
+}
+textarea:hover{
+  box-shadow: 15px 5px 5px rgba(0, 0, 0, 0.3);
+}
+.contact{
+  font-family: 'Ephesis', cursive;
+  font-size:40px
+}
+.inventory h1{
+  font-family:'Ephesis', cursive;
+  font-size: 60px;
+}
+.inventory{
+  font-size: 40px;
+  letter-spacing: 2px;
+  font-family: 'Space Grotesk', sans-serif;
+  text-decoration: none;
+
+}
+td{
+  border: yellow 3px solid;
+  padding: 25px;
+}
+.look{
+  text-decoration: none;
+  color: black;
+}
